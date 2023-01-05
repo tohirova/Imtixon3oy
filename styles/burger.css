@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../burger-layers/pngtree-geometric-gradient-gourmet-fast-food-advertising-poster-background-material-image_131612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77vh;
+}
+
+.gridd {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.center {
+    margin-top: 150px;
+}
+
+.ong {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+.text {
+    line-height: 1.6rem;
+    margin-top: -40px;
+}
+
+.chap {
+    width: 500px;
+    height: 300px;
+    margin-left: 150px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input,
+button {
+    border-radius: 3px;
+    padding: 5px 5px;
+    background: radial-gradient(white, rgb(26, 160, 162));
+    border: none;
+}
+
+.tugma {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.xarid {
+    width: 465px;
+    margin-top: 30px;
+}
+
+.btn {
+    background: radial-gradient(white, red);
+}
+
+.order-button {
+    background: radial-gradient(white, green);
+}
